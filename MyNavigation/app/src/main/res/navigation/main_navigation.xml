@@ -31,6 +31,10 @@
         android:name="me.suryaharahap.mynavigation.ProfileActivity"
         android:label="activity_profile"
         tools:layout="@layout/activity_profile">
+        <deepLink
+            android:id="@+id/deepLink"
+            android:autoVerify="true"
+            app:uri="https://www.dicoding.com/users/surya_harahap/academies" />
     </activity>
     <fragment
         android:id="@+id/detailCategoryFragment"
