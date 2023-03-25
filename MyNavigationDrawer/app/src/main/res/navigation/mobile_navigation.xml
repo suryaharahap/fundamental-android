@@ -27,5 +27,5 @@
         android:id="@+id/nav_cart"
         android:name="me.suryaharahap.mynavigationdrawer.CartFragment"
         android:label="@string/menu_cart"
-        tools:layout="@layout/fragment_cart"
+        tools:layout="@layout/fragment_cart" />
 </navigation>
